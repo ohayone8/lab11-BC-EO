@@ -39,23 +39,3 @@ def square_root(a):
 
 def hypotenuse(a ,b):
         return math.hypot(a,b)
-
-
-def add(a, b):
-    return a+b
-
-def subtract(a, b):
-    return a-b
-
-def multiply(a, b):
-    return a*b
-
-def logarithm(a, b):
-    if a <= 0 or a == 1:
-        raise ValueError("Base must be positive and not equal to 1.")
-    if b <= 0:
-        raise ValueError("Must be positive.")
-    return math.log(b, a)
-
-def exponent(a, b):
-    return a**b
